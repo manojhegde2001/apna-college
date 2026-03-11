@@ -1,3 +1,4 @@
+import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import { AuthProvider, useAuth } from './context/AuthContext';
 import Login from './pages/Login';
@@ -5,7 +6,7 @@ import Dashboard from './pages/Dashboard';
 import Topics from './pages/Topics';
 import Progress from './pages/Progress';
 
-const ProtectedRoute = ({ children }: { children: JSX.Element }) => {
+const ProtectedRoute = ({ children }: { children: React.JSX.Element }) => {
   const { token, loading } = useAuth();
   if (loading) return <div>Loading...</div>;
   return token ? children : <Navigate to="/login" />;
