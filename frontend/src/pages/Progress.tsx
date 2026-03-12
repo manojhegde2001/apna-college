@@ -85,7 +85,7 @@ const Progress: React.FC = () => {
 
             <footer className="bg-white border-t border-gray-200 py-8">
                 <div className="max-w-7xl mx-auto px-4 text-center text-gray-500 text-sm">
-                    © 2024 Dashboard. All Rights Reserved.
+                    © 2026 Dashboard. All Rights Reserved.
                 </div>
             </footer>
         </div>

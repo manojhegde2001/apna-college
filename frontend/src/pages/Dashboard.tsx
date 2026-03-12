@@ -16,7 +16,7 @@ const Dashboard: React.FC = () => {
             </main>
 
             <footer className="mt-20 py-8 border-t border-gray-100 bg-gray-50/50 text-center text-gray-500 text-sm">
-                © 2024 Dashboard. All Rights Reserved.
+                © 2026 Dashboard. All Rights Reserved.
             </footer>
         </div>
     );
